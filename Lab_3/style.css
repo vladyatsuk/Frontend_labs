@@ -1,14 +1,22 @@
 html, body, p {
   margin: 0px;
   padding: 0px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 20px;
 }
- 
-.container-float {
+
+p {
+  padding: 10px;
+}
+
+.container {
   height: 800px;
   width: 90%;
   margin: 5% 5%;
+}
+
+.float {
+  float: left;
 }
 
 img {
@@ -19,7 +27,6 @@ img {
 .image1 {
   width: 25%;
   height: 66.67%;
-  float: left;
   background-color: #bbd4ed;
 }
 
@@ -28,12 +35,23 @@ img {
   background-color: #ade4f6;
 }
 
+.text1-flex {
+  width: 75%;
+}
+
 .image2 {
+  width: 100%;
   height: 16.665%;
 }
 
 .text2 {
+  width: 100%;
   height: 16.665%;
   background-color: #faf3b4;
   overflow: auto;
-} 
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
