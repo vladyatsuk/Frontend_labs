@@ -1,0 +1,39 @@
+html, body, p {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+ 
+.container-float {
+  height: 800px;
+  width: 90%;
+  margin: 5% 5%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.image1 {
+  width: 25%;
+  height: 66.67%;
+  float: left;
+  background-color: #bbd4ed;
+}
+
+.text1 {
+  height: 66.67%;
+  background-color: #ade4f6;
+}
+
+.image2 {
+  height: 16.665%;
+}
+
+.text2 {
+  height: 16.665%;
+  background-color: #faf3b4;
+  overflow: auto;
+} 
