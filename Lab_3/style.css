@@ -33,6 +33,7 @@ img {
 .text1 {
   height: 66.67%;
   background-color: #ade4f6;
+  text-align: center;
 }
 
 .text1-flex {
