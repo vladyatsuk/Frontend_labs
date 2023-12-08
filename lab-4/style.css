@@ -1,0 +1,42 @@
+button {
+  font-size: 1em;
+  background-color: #f3f3f3;
+  border: none;
+  border-radius: 1em;
+  padding: 1em;
+  width: 100%;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #cacaca;
+}
+
+.button-box {
+  margin-right: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.grid {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 5fr)) minmax(0, 2fr);
+  grid-template-rows: 1fr;
+  gap: 1em;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  max-width: 100%;
+  width: 50%;
+}
