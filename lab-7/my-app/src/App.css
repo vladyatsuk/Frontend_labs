@@ -1,0 +1,76 @@
+body {
+  margin: 1em;
+}
+
+button {
+  font-size: 1em;
+  background-color: #f3f3f3;
+  border: none;
+  border-radius: 1em;
+  padding: 1em;
+  width: 100%;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #cacaca;
+}
+
+.button-box {
+  margin-right: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.grid {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 5fr)) minmax(0, 2fr);
+  grid-template-rows: 1fr;
+  gap: 1em;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  max-width: 100%;
+  width: 50%;
+}
+
+.goods-grid {
+  display: grid;
+  max-width: 1200px;
+  width: 80%;
+  margin: 1em auto;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-auto-rows: 1fr;
+  gap: 3em;
+}
+
+.goods-card {
+  border: 1px solid #cacaca;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  max-height: 400px;
+}
+
+.goods-card img {
+  height: 60%;
+}
+
+.goods-card ul {
+  padding-left: 1em;
+  list-style-type: none;
+}
+
+.goods-card li {
+  font-size: 1.5em;
+  line-height: 2;
+}
